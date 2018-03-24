@@ -7,7 +7,7 @@ function isPrime(val) {
 	return true;
 }
 
-function sumAllPrimes(num) {
+function sumPrimes(num) {
 	var answer = 0;
 	//loop through all numbers from 2 to input value
 	for (var i = 2; i <= num; i++) {
@@ -18,4 +18,4 @@ function sumAllPrimes(num) {
 	}
 	return answer;
 }
-sumAllPrimes(666); // 73156
+sumPrimes(666); //36888
